@@ -1,0 +1,16 @@
+package book.ch2;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		//print메소드는 자바에서 제공되는 메소드이므로 반드시 파라미터의 갯수나
+		//타일이 반드시 일치해야 문법에러를 피할수 있다.
+//		System.out.print(); //에러
+//		System.out.println();
+//		System.out.print(1);
+//		System.out.print("하나");
+		Parameter1 p1 = new Parameter1();
+		System.out.print("\n"+p1.methodB(1.5,2.5));
+	}
+
+}
